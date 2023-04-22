@@ -1,7 +1,7 @@
 openai
 python-dotenv
 colorama
-googletrans
+googletrans==4.0.0rc1
 streamlit
 streamlit_chat
 
