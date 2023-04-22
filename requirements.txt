@@ -1,0 +1,7 @@
+openai
+python-dotenv
+colorama
+googletrans
+streamlit
+streamlit_chat
+

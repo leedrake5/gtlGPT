@@ -3,6 +3,8 @@ import openai
 from dotenv import load_dotenv
 from colorama import Fore, Back, Style
 from googletrans import Translator
+import streamlit as st
+from streamlit_chat import message
 
 translator = Translator()
 
@@ -96,10 +98,6 @@ def generate_response(prompt):
     message=completion.choices[0].text
     return translator.translate(message, src="en", dest="ps").text
 
-import streamlit as st
-from streamlit_chat import message
-import os
-from dotenv import load_dotenv
 
 
 previous_questions_and_answers = []
